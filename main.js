@@ -1,10 +1,7 @@
-function main(tiv){
-   return function astichanhashvox(astichan) {
-       if (isNaN(astichan)) return "chgrel string"
-       if (isNaN(tiv)) return "chgrel string"
-       return tiv**astichan
-   }
-}
+let num1 = Number(prompt("input number 1"))
+let num2 = Number(prompt("input number 2"))
 
-let a = main(prompt("nermucel tiv"))(prompt("barcracnel astichan"))
-console.log(a);
+let a = (number1,number2) => {return number1**number2}
+
+let res = a(num1,num2)
+console.log(res);
